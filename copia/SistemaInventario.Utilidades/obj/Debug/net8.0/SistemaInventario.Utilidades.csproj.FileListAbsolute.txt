@@ -1,0 +1,14 @@
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\bin\Debug\net8.0\SistemaInventario.Utilidades.deps.json
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\bin\Debug\net8.0\SistemaInventario.Utilidades.runtimeconfig.json
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\bin\Debug\net8.0\SistemaInventario.Utilidades.dll
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\bin\Debug\net8.0\SistemaInventario.Utilidades.pdb
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\obj\Debug\net8.0\SistemaInventario.Utilidades.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\obj\Debug\net8.0\SistemaInventario.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\obj\Debug\net8.0\SistemaInventario.Utilidades.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\obj\Debug\net8.0\SistemaInventario.Utilidades.AssemblyInfo.cs
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\obj\Debug\net8.0\SistemaInventario.Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\obj\Debug\net8.0\SistemaInventario.Utilidades.dll
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\obj\Debug\net8.0\refint\SistemaInventario.Utilidades.dll
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\obj\Debug\net8.0\SistemaInventario.Utilidades.pdb
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\obj\Debug\net8.0\SistemaInventario.Utilidades.genruntimeconfig.cache
+C:\Users\carlo\source\repos\SistemaInventario.Utilidades\obj\Debug\net8.0\ref\SistemaInventario.Utilidades.dll

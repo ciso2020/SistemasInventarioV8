@@ -1,0 +1,69 @@
+
+NuGet\Install-Package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation -Version 7.0.7
+
+NuGet\Install-Package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation -Version 8.0.0-preview.3.23177.8
+
+Program.cs
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+para actualizar paquetes con errores
+
+control + .
+
+error CS0579: Duplicate 'XXX' attribute
+By adding this in .csproj file solved the issue
+
+Hacerlo para todos los proyectos
+<PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+</PropertyGroup>
+
+2
+Same for me, just removing previous build artifacts solved the issue. – 
+Paweł Zgórecki
+ CommentedDec 5, 2021 at 18:46
+but we have to keep doing this right? any solution so that we don't need to do this every time we run the project? – 
+aldo
+ CommentedFeb 12, 2023 at 12:37
+Deleting obj and bin didn't for me, but a full git clean -fdx did. – 
+Lyndon Gingerich
+ CommentedMar 10, 2023 at 17:52
+Add a comment
+15
+
+You just need to exclude the obj folder from the project/solution. If you don't know how to do this, add this to your .csproj or .vbproj or .whateverproj:
+{
+---esto hacerlo
+  <ItemGroup>
+    <Compile Remove="obj\**" />
+    <Content Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+
+appsetting.json esta la cadena de conexion BD
+
+_Layout.cshtml la parte css pantalla principal
+
+AccesoDatos
+ApplicationDbContext.cs para agregar las tablas
+
+para el OnModelCreating hay que instalar en paquetes Nuget
+FluentValidation.WebAPI por Jeremy Skinner V. 8.6.1 ya en desuso.
+
+EntityFrameworkCore\Add-Migration AddBodega
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ciso2020/SistemasInventarioV8.git
+ git pull origin main
+git push -u origin main
+
+
+

@@ -1,0 +1,93 @@
+Uso de Git
+Git Bash Here con click derecho repositorios/repositorios6i/bancabt6i
+actualizar 
+git fetch origin
+git branch nombre_rama
+git checkout nombre_rama
+git fetch origin
+para actualizar rama
+git pull origin release/test
+Luego pegar los objetos desde mi local hacia repositorios/repositorios6i/bancabt6i/pr/formas o menus etc
+git status
+git add PR/MENU/PRESPA.mmb o git add .
+git status
+git commit -m "descripcion"
+para validar
+git pull origin release/test
+se sube a Azure
+git push origin nombre_rama
+se va a azure para ver en Commit
+y se hace el pull-request correspondiente conforme al Commit
+
+Cuando la carpeta no tiene nada en repositorio
+Se va Azure en Repos- Clone y se copia SSH
+git clone Command Line SSH
+
+
+git 
+
+
+git add -u ':!listobjects.txt' ':!/pr/formas/pr0031.fmb' ':!/pr/reportes/prr0181.rdf' ':!/pr/reportes/prr0187.rdf'
+
+
+// delete branch locally
+git branch -d localBranchName
+git branch -d Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-06092023
+git brachd -d Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-07092023
+git brachd -d Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-07092023
+
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+git push origin --delete Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-06092023
+git push origin --delete Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-07092023
+git push origin --delete Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-07092023
+
+
+
+git add -- . ':!<path>'
+# if the file in the right place isn't already committed:
+git add <path to desired file>
+
+# remove the "both deleted" file from the index:
+git rm --cached ../public/images/originals/dog.ai
+# commit the merge:
+git commit
+
+
+You need to resolve your current index first 
+git reset --merge
+
+
+If you've already committed your merge locally (but haven't pushed to remote yet), and want to revert it as well:
+
+local
+git reset --hard HEAD~1 
+
+git remote
+antes dar git log
+luego git revert (el commit)
+
+git update-index --assume-unchanged listobjects.txt pr/formas/pr0031.fmb pr/reportes/prr0187.rdf pr/reportes/prr0181.rdf
+
+
+tomado desde la rama que la cree
+ git clone --branch Colocaciones/Celula_creditos_test https://AgilidadBantrab@dev.azure.com/AgilidadBantrab/Repos_BancaBT/_git/bancabt12c
+
+
+Para proyecto Net 8 en mi casa
+crear repositorio
+mkdir repositorio2
+acceder con git bash
+git init
+git clone https://github.com/ciso2020/SistemasInventarioV8.git
+git fetch
+git branch
+git pull
+copiar aqui todos los cambios
+git status
+git add .
+git status
+git commit -m "descripcion"
+git pull
+git push --set-upstream https://github.com/ciso2020/SistemasInventarioV8.git master
