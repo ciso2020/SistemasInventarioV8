@@ -1,4 +1,0 @@
-﻿[*.cs]
-
-# CA1708: Los identificadores se deberían diferenciar en algo más que en el uso de mayúsculas y minúsculas
-dotnet_diagnostic.CA1708.severity = silent
